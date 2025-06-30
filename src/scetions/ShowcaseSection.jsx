@@ -53,7 +53,7 @@ const ShowcaseSection = () => {
         <div className="showcaselayout">
           <div ref={project1Ref} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/project1.png" alt="SIH" />
             </div>
             <div className="text-content">
               <h2>
@@ -71,7 +71,7 @@ const ShowcaseSection = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
-                  alt="Library Management Platform"
+                  alt="FinAssist"
                 />
               </div>
               <h2>Financial Assistance Platform</h2>
@@ -79,7 +79,7 @@ const ShowcaseSection = () => {
 
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/project3.png" alt="CyberAware" />
               </div>
               <h2>Cyber Awareness Platform</h2>
             </div>
