@@ -3,10 +3,19 @@ import gsap from "gsap";
 import TitleHeader from "../components/TitleHeader";
 import { techStackIcons } from "../constants";
 import TechIcon from "../components/Models/TechLogos/TechIcon";
+<<<<<<< HEAD
 // import { techStackImgs } from "../constants";
 
 const TechStack = () => {
   // Animate the tech cards in the skills section
+=======
+import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
+
+const TechStack = () => {
+
+    // Animate the tech cards in the skills section
+>>>>>>> 9744a49a6958f0155c31a15f13a6011eda7a953c
   useGSAP(() => {
     // This animation is triggered when the user scrolls to the #skills wrapper
     // The animation starts when the top of the wrapper is at the center of the screen

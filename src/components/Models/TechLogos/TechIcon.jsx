@@ -1,13 +1,19 @@
 import { Environment, Float, OrbitControls, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+<<<<<<< HEAD
 import React from "react";
 import { DirectionalLight } from "three";
 import { useEffect } from "react";
+=======
+import React, { useEffect } from "react";
+import { DirectionalLight } from "three";
+>>>>>>> 9744a49a6958f0155c31a15f13a6011eda7a953c
 import * as THREE from 'three'
 
 const TechIcon = ({ model }) => {
   const scene = useGLTF(model.modelPath);
 
+<<<<<<< HEAD
   useEffect(() => {
     if (model.name === "Interactive Developer") {
       scene.scene.traverse((child) => {
@@ -19,6 +25,19 @@ const TechIcon = ({ model }) => {
       });
     }
   }, [scene]);
+=======
+
+
+    useEffect(()=>{
+        if (model.name === 'Interactive Developer') {
+            scene.scene.traverse((child) =>{
+                if (child.isMesh && child.name === 'Object_5') {
+                    child.material = new THREE.MeshStandardMaterial({color: 'white'})
+                }
+            })
+        }
+    },[scene])
+>>>>>>> 9744a49a6958f0155c31a15f13a6011eda7a953c
 
   return (
     <Canvas>
