@@ -4,6 +4,7 @@ import ExperienceSection from './scetions/ExperienceSection'
 import FeatureCards from './scetions/FeatureCards'
 import Hero from './scetions/Hero'
 import ShowcaseSection from './scetions/ShowcaseSection'
+import TechStack from './scetions/TechStack'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <LogoSection/>
     <FeatureCards/>
     <ExperienceSection/>
+    <TechStack/>
     </>
   )
 }
