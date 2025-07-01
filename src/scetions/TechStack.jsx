@@ -1,10 +1,9 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
+
 import TitleHeader from "../components/TitleHeader";
+import TechIcon from "../components/Models/TechLogos/TechIcon"
 import { techStackIcons } from "../constants";
-import TechIcon from "../components/Models/TechLogos/TechIcon";
 // import { techStackImgs } from "../constants";
 
 const TechStack = () => {
@@ -42,15 +41,7 @@ const TechStack = () => {
         <TitleHeader
           title="How I Can Contribute & My Key Skills"
           sub="🤝 What I Bring to the Table"
-          title="How I Can Contribute & My Key Skills"
-          sub="🤝 What I Bring to the Table"
         />
-        <div className="tech-grid">
-          {/* Loop through the techStackIcons array and create a component for each item. 
-              The key is set to the name of the tech stack icon, and the classnames are set to 
-              card-border, tech-card, overflow-hidden, and group. The xl:rounded-full and rounded-lg 
-              classes are only applied on larger screens. */}
-          {techStackIcons.map((techStackIcon) => (
         <div className="tech-grid">
           {/* Loop through the techStackIcons array and create a component for each item. 
               The key is set to the name of the tech stack icon, and the classnames are set to 
@@ -60,30 +51,19 @@ const TechStack = () => {
             <div
               key={techStackIcon.name}
               className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
-              key={techStackIcon.name}
-              className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
             >
-              {/* The tech-card-animated-bg div is used to create a background animation when the 
-                  component is hovered. */}
               {/* The tech-card-animated-bg div is used to create a background animation when the 
                   component is hovered. */}
               <div className="tech-card-animated-bg" />
               <div className="tech-card-content">
                 {/* The tech-icon-wrapper div contains the TechIconCardExperience component, 
                     which renders the 3D model of the tech stack icon. */}
-                {/* The tech-icon-wrapper div contains the TechIconCardExperience component, 
-                    which renders the 3D model of the tech stack icon. */}
                 <div className="tech-icon-wrapper">
-                  <TechIcon model={techStackIcon} />
                   <TechIcon model={techStackIcon} />
                 </div>
                 {/* The padding-x and w-full classes are used to add horizontal padding to the 
                     text and make it take up the full width of the component. */}
-                {/* The padding-x and w-full classes are used to add horizontal padding to the 
-                    text and make it take up the full width of the component. */}
                 <div className="padding-x w-full">
-                  {/* The p tag contains the name of the tech stack icon. */}
-                  <p>{techStackIcon.name}</p>
                   {/* The p tag contains the name of the tech stack icon. */}
                   <p>{techStackIcon.name}</p>
                 </div>

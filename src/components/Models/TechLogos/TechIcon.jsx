@@ -38,23 +38,6 @@ const TechIcon = ({ model }) => {
     </Canvas>
   );
 };
-    <Canvas>
-      <ambientLight intensity={0.3} />
+    
 
-      <directionalLight position={[5, 5, 5]} intensity={1} />
-
-      <Environment preset="city" />
-
-      <OrbitControls enableZoom={false} />
-
-      <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
-        <group scale={model.scale} rotation={model.roetation}>
-          <primitive object={scene.scene} />
-        </group>
-      </Float>
-    </Canvas>
-  );
-};
-
-export default TechIcon;
 export default TechIcon;
