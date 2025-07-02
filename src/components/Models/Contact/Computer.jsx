@@ -14,7 +14,12 @@ export function Computer(props) {
           geometry={nodes.Cube000_ComputerDesk_0001_1.geometry}
           material={materials["ComputerDesk.001"]}
         />
-        
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Cube000_ComputerDesk_0001_2.geometry}
+          material={materials["FloppyDisk.001"]}
+        />
       </group>
     </group>
   );
