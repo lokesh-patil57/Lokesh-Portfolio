@@ -77,7 +77,6 @@ const Hero = () => {
         </figure>
       </div>
       <AnimatedCounter/>
-      Hero
     </section>
   );
 };
