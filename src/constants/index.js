@@ -247,18 +247,22 @@ const testimonials = [
 const socialImgs = [
   {
     name: "insta",
+    url : "https://www.instagram.com/lucky_patil.57",
     imgPath: "/images/insta.png",
   },
   {
     name: "fb",
+    url : "https://www.facebook.com/lokeshjagdish.patil",
     imgPath: "/images/fb.png",
   },
   {
     name: "x",
+    url : "https://x.com/Luckypatil_57",
     imgPath: "/images/x.png",
   },
   {
     name: "linkedin",
+    url : "https://www.linkedin.com/in/lokesh-patil-91a64a320",
     imgPath: "/images/linkedin.png",
   },
 ];
