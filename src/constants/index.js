@@ -32,7 +32,7 @@ const counterItems = [
   { value: 2, suffix: "+", label: "Years of Experience" },
   { value: 3, suffix: "+", label: "Hackathon Count" },
   { value: 10, suffix: "+", label: "Completed Projects" },
-  { value: 95, suffix: "%", label: "Project completion Rate" },
+  { value: 95, suffix: "%", label: "Project Completion Rate" },
 ];
 
 const logoIconsList = [
@@ -84,7 +84,7 @@ const abilities = [
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
+    title: "On-Time Completion",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
 ];
@@ -147,14 +147,14 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Lokesh started working on frontend coding like HTML , CSS and JavaScript for significantly improving my frontend performance. My work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
-    date: "January 2023 - Present",
+    date: "January 2024 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
+      "Developed and maintained user-facing features for the clone website like Netfilx AirBnb.",
+      "Collaborated closely with UI/UX designers students to ensure seamless user experiences.",
       "Optimized web applications for maximum speed and scalability.",
     ],
   },
