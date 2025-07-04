@@ -7,7 +7,7 @@ import Footer from './scetions/Footer'
 import Hero from './scetions/Hero'
 import ShowcaseSection from './scetions/ShowcaseSection'
 import TechStack from './scetions/TechStack'
-import Testimonials from './scetions/Testimonials'
+import Socials from './scetions/Socials'
 
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
     <FeatureCards/>
     <ExperienceSection/>
     <TechStack/>
-    <Testimonials/>
+    <Socials/>
     <Contact/>
     <Footer/>
     </>
