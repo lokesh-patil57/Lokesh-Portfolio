@@ -12,8 +12,8 @@ const navLinks = [
     link: "#skills",
   },
   {
-    name: "Testimonials",
-    link: "#testimonials",
+    name: "Socials",
+    link: "#socials",
   },
 ];
 
@@ -91,7 +91,7 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
+    name: "React.js Developer",
     imgPath: "/images/logos/react.png",
   },
   {
@@ -159,25 +159,25 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Started learning Python language for learning coding in python and to get understanding about Artificial Intelligence , Generative AI .",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Learning Python Language",
+    date: "December 2024 - February 2025",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Understanding about core concepts , Work with libraries & frameworks",
+      "Commit to regular practice and continuous learning , Understand that debugging and problem-solving take time",
+      "Tryed to build real projects , like in CyberAware project Implemented a Python Chatbot",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "Lokesh started Learning about the concept of Backend in MERN Stack , learning about the concept of Databases , Freamework , Runtime environment and concept about React languages.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "MERN Stack Developer",
+    date: "March 2025 - July 2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
+      "Built cross-platform Web application using React , TailwindCSS integrating with backend services.",
       "Improved app performance and user experience through code optimization and testing.",
       "Coordinated with the product team to implement features based on feedback.",
     ],
@@ -199,49 +199,49 @@ const expLogos = [
   },
 ];
 
-const testimonials = [
+const socials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Solution Challenge 2025",
+    mentions: "@GDGCsolutionchallenge2025",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "💻Worked on Problem statement : GenAI-Powered Financial Assistant for Better Investing Decisions .We are building a GenAI based solution to allow people to have a conversation about their financial needs and be better informed while making a decision. Where we built web application on hashtag #MERNstack Project Overview",
     imgPath: "/images/client1.png",
   },
+  // {
+  //   name: "SIH 2024",
+  //   mentions: "@wadewarren",
+  //   review:
+  //     "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+  //   imgPath: "/images/client3.png",
+  // },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "SIH 2024 Finalist",
+    mentions: "@smartindiahackathon2024",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "A comprehensive AYUSH Startup Registration Portal to 	streamline  the  registration  process  for  startups  in  the  AYUSH  sector,  enhancing 	efficiency, transparency, and accessibility. we created a AYUSH web Portal with MERN stack , I handle the debugging , middleware and Error handling in our website . Designed the landing page UI design.",
     imgPath: "/images/client2.png",
   },
+  // {
+  //   name: "Marvin McKinney",
+  //   mentions: "@marvinmckinney",
+  //   review:
+  //     "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+  //   imgPath: "/images/client5.png",
+  // },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Road Safety Hackathon 2025",
+    mentions: "@roadsafetyhackathon2025",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "💻Worked on Problem statement : Strategy for Enhancing Foot Over Bridge (FOB) Utilization.💡Where Our Objective was creating strategic solutions that aim to improve the overall utilization of Foot Over Bridges (FOBs) by addressing the behavioral, structural, and situational challenges faced by users.",
     imgPath: "/images/client4.png",
   },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
-  },
+  // {
+  //   name: "Albert Flores",
+  //   mentions: "@albertflores",
+  //   review:
+  //     "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+  //   imgPath: "/images/client6.png",
+  // },
 ];
 
 const socialImgs = [
@@ -274,7 +274,7 @@ export {
   counterItems,
   expCards,
   expLogos,
-  testimonials,
+  socials,
   socialImgs,
   techStackIcons,
   techStackImgs,
