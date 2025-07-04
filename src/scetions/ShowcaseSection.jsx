@@ -61,7 +61,7 @@ const ShowcaseSection = () => {
                   Smart-AYUSH Registration Portal , Smart India Hackathon-2024
                 </h2>
                 <p className="text-white-50 md:text-xl">
-                  An website built with React Native, MongoDB , & TailwindCSS
+                  An website built with React, Express.js , Node.js , MongoDB , & TailwindCSS
                   for a fast , secure and user-friendly experience.
                 </p>
               </div>
