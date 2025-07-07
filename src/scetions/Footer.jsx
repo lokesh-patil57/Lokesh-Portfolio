@@ -15,11 +15,11 @@ const Footer = () => {
                 </a>
             ))}
         </div>
-        <dic className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center">
             <p className="text-center md:text-end ">
                 © {new Date().getFullYear()} Lokesh | Patil. All rights reserved.
             </p>
-        </dic>
+        </div>
       </div>
     </footer>
   )
