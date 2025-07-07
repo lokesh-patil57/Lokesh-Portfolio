@@ -7,6 +7,8 @@ export function Computer(props) {
 
   return (
     <group {...props} dispose={null}>
+      <ambientLight intensity={0.5} />
+      <directionalLight position={[5, 5, 5]} intensity={1} />
       <group position={[-4.005, 67.549, 58.539]}>
         <mesh
           castShadow
